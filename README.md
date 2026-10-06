@@ -4,13 +4,12 @@
 
 📢 **[Sep 2026]** DESCAPE was accepted to **Findings of EMNLP 2026**.
 
-Official implementation of **"Look Before You Leap: Factual Decoding with Internal Attribution Signals"**.
 
-DESCAPE (**DE**coding **S**ignal **C**ontrol **A**gainst **P**ath **E**rror-snowballing) is a decoding framework that suppresses hallucination-prone trajectories at inference time. It reads a factual attribution signal from inside the model, and uses it during beam search to penalize high-risk continuations and reward factually grounded ones, before an early factual error can snowball through the rest of the generation.
+- DESCAPE (**DE**coding **S**ignal **C**ontrol **A**gainst **P**ath **E**rror-snowballing) is a decoding framework that suppresses hallucination-prone trajectories at inference time. It reads a factual attribution signal from inside the model, and uses it during beam search to penalize high-risk continuations and reward factually grounded ones, before an early factual error can snowball through the rest of the generation.
 
-DESCAPE does not modify the base model and needs no external verifier. In our experiments on five factuality benchmarks and three LLMs, it improves factuality over decoding-time baselines in multiple settings, at 1.10× the latency of greedy decoding.
+- DESCAPE does not modify the base model and needs no external verifier. In our experiments on five factuality benchmarks and three LLMs, it improves factuality over decoding-time baselines in multiple settings, at 1.10× the latency of greedy decoding.
 
-This repository contains the decoding code, the trained probes for three LLMs, the scripts to build a probe for a new model, and the evaluation scripts.
+- This repository contains the decoding code, the trained probes for three LLMs, the scripts to build a probe for a new model, and the evaluation scripts.
 
 ## 💡 How DESCAPE works
 
