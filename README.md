@@ -1,4 +1,4 @@
-# DESCAPE
+# Look Before You Leap: Factual Decoding with Internal Attribution Signals
 
 [![Paper](https://img.shields.io/badge/Paper-arxiv-b31b1b)](https://arxiv.org/abs/2609.15745)
 
