@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+
+# generation and evaluation outputs
+outputs/
+
+# probe supervision targets (large) and user-trained probes
+labels/
+checkpoints/*/
+
+# external benchmark data
+freshqa/
+*.csv

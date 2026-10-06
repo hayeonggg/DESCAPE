@@ -1,0 +1,13 @@
+torch>=2.0
+transformers>=4.56
+accelerate
+datasets
+sentencepiece
+protobuf
+numpy
+scipy
+pandas
+tqdm
+
+# LLM-as-judge evaluation (evaluation/)
+openai>=1.40
